@@ -1,0 +1,1455 @@
+
+
+
+
+
+<html>
+<head>
+	<title>한국교육콘텐츠진흥원</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="naver-site-verification" content="2d30b012ce4098afb772e0e863fcb39d3ed47574"/>
+	<!-- <link rel="stylesheet" href="css/style.css" type="text/css"> -->
+	<link rel="stylesheet" href="kecca/Css/style_old.css" type="text/css">
+	<meta name="description" content="심리상담사, 방과후지도사, 아동심리상담사, 동화구연지도사등 자격증 발급">
+
+	<meta property="og:type" content="website">
+	 <meta property="og:title" content="한국교육콘텐츠진흥원">
+	 <meta property="og:description" content="심리상담사, 방과후지도사, 아동심리상담사, 동화구연지도사등 자격증 발급">
+	 <meta property="og:image" content="http://kecca.co.kr/kecca/images/top_logo.gif">
+	 <meta property="og:url" content="http://kecca.co.kr//">
+
+	<link rel="shortcut icon" href="/images/linkicon.ico">
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+	<script language="javascript" src="/js/menu.js"></script>
+	<script language="javascript" src="/js/design.js"></script>
+	<script language="javascript" src="/js2/jquery-1.9.1.min.js" type="text/javascript"></script>
+	<script language="javascript" src="/js2/jquery-ui.min.js" type="text/javascript"></script>
+
+	<link rel="stylesheet" href="/kecca/scripts/submenu.css" type="text/css">
+	<script type="text/javascript" src="/kecca/scripts/submenu.js"></script>
+
+	<!-- 공지팝업 처리 시작 -->
+
+<script language="javascript">
+		var x =0
+		var y=0
+		drag = 0
+		move = 0
+
+		window.document.onmousemove = mouseMove
+		window.document.onmousedown = mouseDown
+		window.document.onmouseup = mouseUp
+		window.document.ondragstart = mouseStop
+		
+		function mouseUp() {
+		move = 0
+		}
+		
+			function mouseDown() {
+			if (drag) {
+				//alert(parseInt(dragObj.style.left));
+			clickleft = window.event.clientX - parseInt(dragObj.style.left);
+			clicktop =window.event.clientY - parseInt(dragObj.style.top);
+			dragObj.style.zIndex += 1
+			move = 1
+			}
+		}
+
+
+				function mouseMove() {
+				if (move) {
+				dragObj.style.left = window.event.x - clickleft;
+				dragObj.style.top = window.event.y - clicktop;
+				}
+
+				}
+				
+function mouseStop() {
+window.event.returnValue = false
+}
+
+function Show(divid)
+{
+divid.filters.blendTrans.apply();
+divid.style.visibility = "visible";
+divid.filters.blendTrans.play();
+}
+function Hide(divid) {
+divid.filters.blendTrans.apply();
+divid.style.visibility = "hidden";
+divid.filters.blendTrans.play();
+}
+ function getCookie( name ){
+  var nameOfCookie = name + "=";
+  var x = 0;
+  while ( x <= document.cookie.length )
+  {
+   var y = (x+nameOfCookie.length);
+   if ( document.cookie.substring( x, y ) == nameOfCookie ) {
+    if ( (endOfCookie=document.cookie.indexOf( ";", y )) == -1 )
+    endOfCookie = document.cookie.length;
+    return unescape( document.cookie.substring( y, endOfCookie ) );
+   }
+   
+   x = document.cookie.indexOf( " ", x ) + 1;
+   
+   if ( x == 0 ) break;
+  }
+    return "";
+ }
+
+function setCookie(name, value, expiredays){
+  var todayDate = new Date();
+  todayDate.setDate(todayDate.getDate() + expiredays);
+  document.cookie = name + "=" + escape(value) + "; path=/; expires=" + todayDate.toGMTString() + ";"
+ }
+ 
+ function closeWin(get_Key) { 
+  get_Pop = eval("document.all.Popup"+get_Key);
+  get_Pop_id = "Popup"+get_Key;
+
+  if (get_Pop.checked){
+   setCookie(get_Pop_id,"done",1);
+  }
+
+  get_layerPopup = eval("document.all.layerPopup"+get_Key);
+  get_layerPopup.style.display = 'none';
+ }
+
+function popupOpen(op,t,l,w,h)
+{
+		
+	if ( getCookie("info"+op) != "no" ) 
+	{ 
+  	    
+  	   noticeWindow  =  window.open('/admin/topAdmin/10_etc/PopUpInfo/popup_open.asp?news_idx='+op,'_blank','scrollbars=no,status=no,toolbar=no,resizable=1,location=no,menu=no,width='+w+',height='+h+',top='+t+',left='+l);
+   	   noticeWindow.focus()
+		
+	} 
+	
+}
+
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+	  window.open(theURL,winName,features);}
+	  
+	  
+
+var todayDate = new Date();
+todayDate.setDate(todayDate.getDate() + 1);
+document.cookie = "cnum=" + escape('') + "; path=/; expires=" + todayDate.toGMTString() + ";"
+
+
+
+function detectmob() {  
+   if( navigator.userAgent.match(/Android/i) 
+   || navigator.userAgent.match(/webOS/i) 
+   || navigator.userAgent.match(/iPhone/i) 
+   || navigator.userAgent.match(/iPad/i) 
+   || navigator.userAgent.match(/iPod/i) 
+   || navigator.userAgent.match(/BlackBerry/i) 
+   || navigator.userAgent.match(/Windows Phone/i) 
+   ){ 
+         return true; 
+    } 
+   else { 
+         return false; 
+    } 
+} 
+
+
+//-------------------롤링 시작------
+
+
+
+
+//---------------롤링 끝---------
+
+
+
+
+
+
+
+</script>
+
+<!-- 공지팝업 처리 끝 -->
+
+<style type="text/css">
+#quick {
+	position: absolute;
+	margin-left: 490px;
+}
+.noticeLink {
+	display:inline-block;
+	width: 187px; padding-top:3px; 
+	white-space: nowrap; overflow: hidden; text-overflow: ellipsis;margin-bottom: 7px;
+}
+/* 미리보기 이동 버튼 */
+.btnSlideMove {
+	cursor:pointer;
+	margin: 0px 4px;
+}
+/* 미리보기 동영상 */
+.btnPreview {
+	position:relative; top:-128px; left: 0px; z-indxe: 1000;
+	display: block;
+	padding: 28px 60px 60px 60px;
+}
+ul.main_mv01 li {
+	height: 128px;
+	overflow: hidden; 
+}
+
+/* 과정소개 이미지 (4x2) */
+
+.main_mv01 li:last-child {
+	margin-right:0;
+}
+
+.bxslider_menu_dan ul {
+	overflow: auto;
+}
+
+.bxslider_menu_dan li:last-child ul li {
+	margin-top: 10px;
+}
+
+
+
+
+body {margin-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;}
+.link_w {FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: 돋움; LETTER-SPACING: 0em; LINE-HEIGHT: 1.2; TEXT-DECORATION: none}
+.link_w A:link {FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: 돋움; LETTER-SPACING: 0em; LINE-HEIGHT: 1.2; TEXT-DECORATION: none}
+.link_w A:visited {FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: 돋움; LETTER-SPACING: 0em; LINE-HEIGHT: 1.2; TEXT-DECORATION: none}
+.link_w A:active {FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: 돋움; LETTER-SPACING: 0em; LINE-HEIGHT: 1.2; TEXT-DECORATION: none}
+.link_w A:hover {FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: 돋움; LETTER-SPACING: 0em; LINE-HEIGHT: 1.2; TEXT-DECORATION: underline;}
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0" onLoad="">
+						
+						
+						
+							
+<!-- top.asp에 퀵매뉴 들어가 있습니다 -->
+<div style="text-align:center">
+
+<!-- @@wgwg TODO: 주석처리 -->
+<!-- <head> -->
+<!-- <meta name="keywords" CONTENT="민간자격,자격증,바우쳐,바우처,제공인력,자격요건,복지자격,사회복지사,보육교사,평생교육,한국어,한국어교사,자기주도학습지도사,자기주도학습,자기주도,인성지도사,인성,방과후지도사,방과후,심리상담사,심리상담,독서지도사,독서지도,미술심리상담사,미술심리,음악심리상담사,음악심리,학교폭력상담사,학교폭력상담사,,학교폭력,진로상담사,진로,적성">
+<meta name="description" content="사회 전반에 걸친 아동, 청소년, 다문화, 노인 등 복지부분에 필요한 자격증 교육을 담당하고 있는 평생교육원 입니다.">   
+</head>
+<body leftmargin="0" topmargin="0"> -->
+
+
+
+
+
+<!-- 상단 매뉴-->
+<!--header Top-->
+<div id="header_wrap_1">
+    <div class="header_wrap_2">
+    	
+        <span class="header_top_wrap"> 
+        	<ul>
+            	<li class="top_s_menu"><a href="/">홈</a></li>
+                <li class="top_s_line">|</li>
+                
+                <li class="top_s_menu"><a href="/member/search.asp">회원가입</a></li>
+                 <li class="top_s_line">|</li>
+                 <li class="top_s_menu"><a href="/member/log_in.asp">로그인</a></li>
+                 <li class="top_s_line">|</li>
+                 
+                <li class="top_s_menu"><a href="javascript://" onClick="window.external.AddFavorite('http://kecca.co.kr', '::한국교육콘텐츠진흥원 자격증센터::')">즐겨찾기</a></li>
+            </ul>
+        </span>        
+    </div>   
+</div>
+<!--/header Top-->
+
+
+<!--GNB-->
+<div id="gnb_wrap_1">
+    <div class="gnb_wrap_2">    
+
+
+
+
+
+
+<div id='cssmenu'>
+        <ul>
+            <li><a href="/" style="margin-left: 50px"><img src="/kecca/images/top_logo.gif" alt=" LOGO" ></a></li>
+            <li class="menu_title">
+            <!--<img src="/UpfileData/Admin/GroupImages/kecca/logo[1].jpg">-->
+            <a href="/introduce/aboutus.asp">
+            <img src="/images/menu/gnb01_off.gif" alt="교육원소개" data-over="gnb01_on.gif" data-out="gnb01_off.gif" class="menuTitleImg" ></a>
+            	  <ul class="submenu">
+                      <li><a href="/introduce/aboutus.asp">교육원소개</a></li>
+                      <li><a href="/introduce/map.asp">오시는길</a></li>
+                  </ul>        
+            </li>
+            <li class="menu_title"><a href="/sub_page02/license_13.asp?pageNum=3&subNum=8">
+            <img src="/images/menu/gnb_a_off.gif" alt="1급과정"  data-over="gnb_a_on.gif" data-out="gnb_a_off.gif" class="menuTitleImg" ></a>
+              <ul class="submenu">
+                      <li><a href="/sub_page02/license_1a.asp?pageNum=3&subNum=8">노인심리상담사</a></li>
+                      <li><a href="/sub_page02/license_13.asp?pageNum=3&subNum=8">심리상담사</a></li>
+                      <li><a href="/sub_page02/license_14.asp?pageNum=3&subNum=8">아동심리상담사</a></li>
+                      <li><a href="/sub_page02/license_15.asp?pageNum=3&subNum=8">방과후지도사</a></li>
+                      <li><a href="/sub_page02/license_16.asp?pageNum=3&subNum=8">미술심리상담지도사</a></li>
+                      <li><a href="/sub_page02/license_70.asp?pageNum=3&subNum=8">부모교육지도사</a></li>
+                      <li><a href="/sub_page02/license_71.asp?pageNum=3&subNum=8">스피치지도사</a></li>
+                      <li><a href="/sub_page02/license_72.asp?pageNum=3&subNum=8">분노조절상담지도사</a></li>
+                      <li><a href="/sub_page02/license_73.asp?pageNum=3&subNum=8">자기주도학습코치상담사</a></li>
+                      <li><a href="/sub_page02/license_32.asp?pageNum=3&subNum=8">가족심리상담사</a></li>
+                      <li><a href="/sub_page02/license_33.asp?pageNum=3&subNum=8">아동폭력예방상담사</a></li>
+                      <li><a href="/sub_page02/license_34.asp?pageNum=3&subNum=8">독서지도사</a></li>
+                      <li><a href="/sub_page02/license_35.asp?pageNum=3&subNum=8">음악심리상담사</a></li>
+                      <li><a href="/sub_page02/license_36.asp?pageNum=3&subNum=8">문학심리상담사</a></li>
+                      <li><a href="/sub_page02/license_38.asp?pageNum=3&subNum=8">아동미술지도사</a></li>
+                  </ul>   
+
+            </li>
+
+            <li class="menu_title"><a href="/sub_page02/license_12.asp?pageNum=3&subNum=8">
+            <img src="/images/menu/gnb_b_off.gif" alt="2급과정"  data-over="gnb_b_on.gif" data-out="gnb_b_off.gif" class="menuTitleImg" ></a>
+            	 <ul class="submenu">
+                      <li><a href="/sub_page02/license_2a.asp?pageNum=3&subNum=8">노인심리상담사</a></li>
+                      <li><a href="/sub_page02/license_12.asp?pageNum=3&subNum=8">분노조절상담지도사</a></li>
+                      <li><a href="/sub_page02/license_10.asp?pageNum=3&subNum=8">자기주도학습코치상담사</a></li>
+                      <li><a href="/sub_page02/license_09.asp?pageNum=3&subNum=8">가족심리상담사</a></li>
+                      <li><a href="/sub_page03/license_10.asp?pageNum=4&subNum=10">클레이아트지도사</a></li>
+                      <li><a href="/sub_page03/license_08.asp?pageNum=4&subNum=8">손유희지도사</a></li>
+                      <li><a href="/sub_page02/license_08.asp?pageNum=3&subNum=8">이미지메이킹</a></li>
+                      <li><a href="/sub_page02/license_07.asp?pageNum=3&subNum=7">스피치지도사</a></li>
+                      <li><a href="/sub_page02/license_05.asp?pageNum=3&subNum=4">인성지도사</a></li>
+                      <li><a href="/sub_page03/license_17.asp?pageNum=4&subNum=6">아동폭력예방상담사</a></li>
+                      <li><a href="/sub_page02/license_04.asp?pageNum=3&subNum=3">부모교육지도사</a></li>
+                      <li><a href="/sub_page03/license_02.asp?pageNum=4&subNum=2">독서지도사</a></li>
+                      <li><a href="/sub_page02/license_02.asp?pageNum=3&subNum=2">미술심리상담지도사</a></li>
+                      <li><a href="/sub_page03/license_05.asp?pageNum=4&subNum=4">동화구연지도사</a></li>
+                      <li><a href="/sub_page03/license_07.asp?pageNum=4&subNum=5">아동미술지도사</a></li>
+                      <li><a href="/sub_page02/license_01.asp?pageNum=3&subNum=1">심리상담사</a></li>
+                      <li><a href="/sub_page03/license_03.asp?pageNum=4&subNum=3">아동심리상담사</a></li>
+                      <li><a href="/sub_page03/license_01.asp?pageNum=4&subNum=1">방과후 지도사</a></li>
+                      <li><a href="/sub_page03/license_15.asp?pageNum=4&subNum=15">아동요리지도사</a></li>
+                      <li><a href="/sub_page02/license_37.asp?pageNum=4&subNum=15">문학심리상담사</a></li>
+                  </ul>   
+            </li>
+
+
+
+            <li class="menu_title"><a href="/sub_page02/license_17.asp?pageNum=3&subNum=8">
+            <img src="/images/menu/gnb_c_off.gif" alt="단일과정"  data-over="gnb_c_on.gif" data-out="gnb_c_off.gif" class="menuTitleImg" ></a>
+               <ul class="submenu">
+
+                      <li><a href="/sub_page02/license_17.asp?pageNum=3&subNum=8">프레젠테이션전문가</a></li>
+                      <li><a href="/sub_page02/license_11.asp?pageNum=3&subNum=8">캘리그라피지도사</a></li>
+                      <li><a href="/sub_page02/license_20.asp?pageNum=3&subNum=8">스토리텔링수학지도사</a></li>
+                      <li><a href="/sub_page02/license_74.asp?pageNum=3&subNum=8">안전지도사</a></li>
+                      <li><a href="/sub_page02/license_75.asp?pageNum=3&subNum=8">학교안전지도사</a></li>
+                      <li><a href="/sub_page02/license_30.asp?pageNum=3&subNum=8">병원코디네이터</a></li>
+                      <li><a href="/sub_page02/license_76.asp?pageNum=3&subNum=8">코딩지도사</a>
+                      <!-- <li><a href="/sub_page02/license_31.asp?pageNum=3&subNum=8">바리스타</a></li> -->
+                  </ul>   
+            </li>
+
+
+            <li class="menu_title"><a href="/sub_page02/license_18.asp?pageNum=3&subNum=8">
+            <img src="/images/menu/gnb_d_off.gif" alt="취업정보"  data-over="gnb_d_on.gif" data-out="gnb_d_off.gif" class="menuTitleImg" ></a>
+               <ul class="submenu">
+                      <li><a href="/sub_page02/license_18.asp?pageNum=3&subNum=8">면접특강</a></li>
+                      <li><a href="/sub_page02/license_19.asp?pageNum=3&subNum=8">MOS과정</a></li>
+                  </ul>   
+            </li>
+
+
+
+            
+            <li class="menu_title"><a href="/application/lecturelist.asp">
+            <img src="/images/menu/gnb04_off.gif" alt="수강신청"  data-over="gnb04_on.gif" data-out="gnb04_off.gif" class="menuTitleImg" ></a>
+                   <ul class="submenu">
+                      <li><a href="/application/lecturelist.asp">수강신청하기</a></li>
+                      <li><a href="/application/guide.asp">수강신청안내</a></li>
+                      <li><a href="/application/lecturelist_01.asp">자격증발급신청</a></li>
+                      <li><a href="/application/lecturelist_03.asp">자격증발급신청조회</a></li>
+                      <li><a href="/application/guide_01.asp">자격증발급신청안내</a></li>   
+                  </ul>                
+            </li>                
+
+            <li class="menu_title"><a href="/mypage/appl_list.asp">
+            <img src="/images/menu/gnb05_off.gif" alt="마이페이지"  data-over="gnb05_on.gif" data-out="gnb05_off.gif" class="menuTitleImg" ></a>
+            	    <ul class="submenu">
+                      <li><a href="/mypage/appl_list.asp">수강신청현황</a></li>
+                      <li><a href="/mypage/account_list.asp">결제내역</a></li>
+                      <li><a href="/service/notice/list.asp">공지사항</a></li>
+                      <li><a href="/service/schedule/list.asp">일정안내</a></li>
+                      <li><a href="/service/counsel/list.asp">1:1상담</a></li>
+                      <li><a href="/service/faq/list.asp">자주하는질문</a></li>
+                      <li><a href="/service/pc_setting.asp">수강전 PC설정하기</a></li>
+                  </ul> 
+            </li>                
+
+            <li class="menu_title"><a href="/lectureroom/main.asp">
+            <img src="/images/menu/gnb06_off.gif" alt="강의실입장" data-over="gnb06_on.gif" data-out="gnb06_off.gif" class="menuTitleImg" ></a>
+            </li>           
+       
+        </ul>     
+        </div>        
+    </div>
+
+</div>
+<!--/GNB-->
+
+<div id="quickmenubox" style="position:absolute; left: 50%;"><div id="STATICMENU" style="position:absolute; margin-left: 520px; top: 10px">
+	<table width="75" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td><img src="/images/happyel/main/quick_title.gif" style="display:block"></td>
+		</tr>
+		<tr>
+			<td><a href='http://helpu.kr/aplan' target="_blank"><img src="/images/happyel/main/quick_menu_10.gif" align="원격지원" style="display:block"></a></td>
+		</tr>
+			<tr>
+			<td><a href="javascript:lecture_open0('/service/call.asp','lecture_2',500,680);"><img src="/images/happyel/main/quick_menu_02.gif" align="전화상담예약" style="display:block"></a></td>
+		</tr>
+		
+		<tr>
+			<td><a href='javascript:menu("6_3");'><img src="/images/happyel/main/quick_menu_01.gif" align="1:1온라인상담" style="display:block"></a></td>
+		</tr>
+		
+		<tr>
+			<td><a href='javascript:menu("5_1");'><img src="/images/happyel/main/quick_menu_03.gif" align="수강신청바로가기" style="display:block"></a></td>
+		</tr>
+		<tr>
+			<td><a href='javascript:menu("5_3");'><img src="/images/happyel/main/quick_menu_04.gif" align="자격증발급신청" style="display:block"></a></td>
+		</tr>
+		<tr>
+			<td><a href='javascript:menu("5_6");'><img src="/images/happyel/main/quick_menu_05.gif" align="자격증발급신청조회" style="display:block"></a></td>
+		</tr>
+       
+		<tr>
+			<td><a href="javascript:back_top();"><img src="/images/happyel/main/quick_btn_top.gif"  style="display:block"></a></td>
+		</tr>
+	</table>
+</div></div>
+
+<script>
+$(function() {
+  // 메인페이지가 아니라면 퀵메뉴를 올려라
+   if ($(location).attr('pathname') == "/index.asp" || $(location).attr('pathname') == "/"){
+    $("#quickmenubox").css("top", "490px")
+   }
+
+
+  var menu_position = 0;
+  $(window).ready(function(){
+    var tempString = location.href;
+    if (tempString.indexOf("sub01") > -1) 
+    {
+      menu_position = 1;
+      $("#gnb_img_01").prop("src", "/images/menu/gnb_01_on.gif");
+    }
+    else if (tempString.indexOf("sub02") > -1)
+    {
+      menu_position = 2;
+      $("#gnb_img_02").prop("src", "/images/menu/gnb_02_on.gif");
+    }
+    else if (tempString.indexOf("bo_table=gallery") > -1)
+    {
+      menu_position = 3;
+      $("#gnb_img_03").prop("src", "/images/menu/gnb_03_on.gif");
+    }
+    else if (tempString.indexOf("bo_table=notice") > -1 || tempString.indexOf("bo_table=consult") > -1 || tempString.indexOf("bo_table=sample") > -1)
+    {
+      menu_position = 4;
+      $("#gnb_img_04").prop("src", "/images/menu/gnb_04_on.gif");
+    }
+  }); 
+
+
+
+  // gnb 롤오버
+  $(".menuTitleImg").mouseover(function(){
+    $(this).attr('src' , '/images/menu/' + $(this).attr('data-over'));
+    // $(".submenu").hide(); 
+    // $(".gnbBg").show(); 
+    $(this).parents().siblings("ul").show();
+    //alert("dkd");
+  });
+
+  $(".menuTitleImg").mouseout(function(){
+    if ( menu_position == $(this).attr('menu-index') )
+      $(this).attr('src' , '/images/menu/' + $(this).attr('data-over'));
+    else
+      $(this).attr('src' , '/images/menu/' + $(this).attr('data-out'));
+
+    // $(".gnbBg").hide(); 
+    // $(this).parents().siblings("ul").hide();
+  });
+
+  $(".submenu").mouseover(function(){
+    $(this).show();
+    $(".gnbBg").show(); 
+  });
+
+  $(".submenu").mouseout(function(){
+    $(this).hide();
+    $(".gnbBg").hide(); 
+  });
+});
+
+</script>
+
+
+<!-- @@wgwg TODO: 주석처리 -->
+<!-- </body>
+</html> --></div>
+
+<!--Visual-->
+<div style="width:100%; height:346px;min-width:1400px;margin-top:-20px">
+	
+	<ul class="bxslider" style="margin:0px" >
+	   <li style="position: absolute; width:100%;height:346px; background:url(/images/main/main_vbanner_01.jpg) 50% 0px no-repeat; "></li>
+       <li style="position: absolute; width:100%;height:346px; background:url(/images/main/main_vbanner_02.jpg) 50% 0px no-repeat; "></li>
+       <li style="position: absolute; width:100%;height:346px; background:url(/images/main/main_vbanner_03.jpg) 50% 0px no-repeat; "></li>
+       <li style="position: absolute; width:100%;height:346px; background:url(/images/main/main_vbanner_04.jpg) 50% 0px no-repeat; "></li>
+       <li style="position: absolute; width:100%;height:346px; background:url(/images/main/main_vbanner_05.jpg) 50% 0px no-repeat; "></li>
+       <li style="position: absolute; width:100%;height:346px; background:url(/images/main/main_vbanner_06.jpg) 50% 0px no-repeat; "></li>
+    </ul>   
+     <!-- 슬라이드 버튼 -->   
+    <div id="bx-pager" style="position:relative; width:100%; text-align:center; margin-top:-40px;" >
+        <img id="Goto0" src="/images/main/main_v_btn_off.png" style="cursor:pointer">
+        <img id="Goto1" src="/images/main/main_v_btn_off.png" style="cursor:pointer">
+        <img id="Goto2" src="/images/main/main_v_btn_off.png" style="cursor:pointer">
+        <img id="Goto3" src="/images/main/main_v_btn_off.png" style="cursor:pointer">
+        <img id="Goto4" src="/images/main/main_v_btn_off.png" style="cursor:pointer">
+        <img id="Goto5" src="/images/main/main_v_btn_off.png" style="cursor:pointer">
+    </div>
+    <div class="btn_main_prev" style="position:relative; left: 50%; margin-top:-220px; width: 650px; z-index: 100">
+        <img id="PrevImage" src="/images/main/arrow_left.png" alt="버튼-이전" style="cursor:pointer; margin-left: -560px">
+        <img id="NextImage" src="/images/main/arrow_right.png" alt="버튼-다음" style="cursor:pointer; margin-left: 1000px">
+    </div>	
+</div>
+<!--/Visual-->
+
+<!--contents-->
+<div id="contents_wrap_01" style="text-align:center; height: 1470px">
+
+    <div class="contents_01_01">
+    <table width="1000" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="250" valign="top">
+        <!--left-->
+        	
+              
+              
+	<script language="javascript" src="/js/linkline_blur.js"></script>
+	<script language="javascript" src="/js/tcheck.js"></script>
+	<script language="JavaScript">
+	
+	function login_check()
+	{
+		
+		if (Tcheck(loginFrm.userid, '아이디', Alpha + Digit, 4, 20)) return false;
+		if (Tcheck(loginFrm.userpwd, '비밀번호 ', Alpha + Digit, 4, 20)) return false;
+	}
+	</script>
+
+
+
+<!-- 로그인 후 -->
+
+
+<!-- 로그인 전 -->
+<table width="250" border="0" cellspacing="0" cellpadding="0" background="/images/main/main_login_bg.gif">
+  <tr>
+    <td width="250" height="202" align="left" valign="top">
+    
+    <form name="loginFrm" action="/member/log_in_ok.asp" method="post" onsubmit="return login_check()">	
+    <table width="250" border="0" cellspacing="0" cellpadding="0" class="ngFont">
+          <tr>
+            <td width="14" height="42"></td>
+            <td colspan="2" align="right"><img src="/images/main/icon_login.gif" width="76" height="14" style="padding-top:13px;"></td>
+            <td width="10"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td width="153" height="38"><input id="login_data" name="userid" tabindex="1" placeholder="아이디" style="width:145px; height:30px; padding-left:5px;" value="" onFocus="inputFocus(this,'#ffffff')"   maxlength="20">
+			</td>
+            <td width="73" rowspan="2"><input type="image" src="/images/main/main_btn_login.gif" alt="login버튼" style="width:71px; height:70px"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td height="38"><input id="pw_data" name="userpwd" type="password"  placeholder="비밀번호" style="width:145px; height:30px; padding-left:5px;" onFocus="inputFocus(this,'#ffffff')" maxlength="20" tabindex="2"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td height="45"><label><input type="checkbox" name="idsave" value="save"  style="vertical-align:top"> <span style="vertical-align: -2px">아이디저장</span></label></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td height="28"><a href="/member/idpw.asp?subNum=2">아이디/비밀번호찾기  </a> &nbsp;&nbsp;&nbsp;  |</td>
+            <td><a href="/member/search.asp">회원가입</a></td>
+            <td></td>
+          </tr>
+        </table>
+       </form>
+
+    </td>
+  </tr>
+</table>
+
+                
+              <table width="250" border="0" cellspacing="0" cellpadding="0" style="margin-top: 22px">
+              <tr>
+                <td><img src="/kecca/images/main/main_rbn_01.gif" alt="학습상담전화문의"></td>
+              </tr>
+              <tr>
+                <td height="158" bgcolor="#f7f9fa" style="padding-bottom:10px">
+	                <!--1:1상담/FAQ-->
+	                <table width="250" border="0" cellspacing="0" cellpadding="0">
+	                  <tr>
+	                    <td style="text-align: center"><img src="kecca/201705/left_ban.gif" usemap="#leftMap"></td>
+	                    <!-- <td style="text-align:left"><a href="/service/counsel/list.asp"><img src="images/main/main_rbn_02.gif" alt="1:1상담"></a></td>
+	                    <td style="text-align:right"><a href="javascript:menu('6_4');"><img src="images/main/main_rbn_03.gif" alt="FAQ"></a></td>
+	                    <td></td> -->
+	                  </tr>
+	                </table>
+	                <map name="leftMap" id="leftMap">
+					  <area shape="rect" coords="3,4,106,102" href="/service/counsel/list.asp" />
+					  <area shape="rect" coords="114,2,217,103" href="javascript:menu('6_4');" />
+					  <area shape="rect" coords="114,109,217,206" href="http://blog.naver.com/kecca123" target="_blank" />
+					</map>
+	                <!--/1:1상담FAQ-->
+                </td>
+              </tr>
+              <tr height="150" bgcolor="#f7f9fa">
+                <td align="center" valign="top">
+                
+                	<!--공지/일정안내-->
+                    <table width="220" border="0" cellspacing="0" cellpadding="0" class="ngFont">
+                      <tr>
+                        <td width="74" height="26"><a href="/service/notice/list.asp"><img src="images/main/main_tit_notice_on.gif" data-over="main_tit_notice_on.gif" data-out="main_tit_notice_off.gif" id="tabTitleImgNotice"></a></td>
+                        <td width="74"><a href="/service/schedule/list.asp"><img src="images/main/main_tit_schedule_off.gif" data-over="main_tit_schedule_on.gif" data-out="main_tit_schedule_off.gif" id="tabTitleImgSchedule"></a></td>
+                        <td width="54"></td>
+                        <td><a href="/service/notice/list.asp"><img src="images/main/main_moe_notice.gif" alt="more"></a></td>
+                      </tr>
+                      <tr>
+                        <td height="1" bgcolor="#cfd2d9" colspan="4"></td>         
+                      </tr>
+                      <tr>
+                        <td colspan="4" style="height: 135px; vertical-align:top; padding-top: 10px; text-align:left" >
+<!-- 교육원소식 리스트 -->
+<div id="noticeList">
+
+					
+<!-- 루핑 -->
+
+
+<span style="color:#007dcd; ">2022.12.06</span><br>
+<a href="/service/notice/view.asp?page=1&amp;idx=5506" class="noticeLink">[필독] ★ 2022년도 자격증 발급 신청 가능 기간 안내★</a><br>
+
+
+
+
+<span style="color:#007dcd; ">2022.12.06</span><br>
+<a href="/service/notice/view.asp?page=1&amp;idx=5505" class="noticeLink">[필독] ★ 2022년도 12월자격증 발급 신청 가능 기간 안내★</a><br>
+
+
+
+
+<span style="color:#007dcd; ">2022.12.06</span><br>
+<a href="/service/notice/view.asp?page=1&amp;idx=5504" class="noticeLink">[필독] ★한국직업능력연구원 등록자격 조회방법★</a><br>
+
+
+
+</div>
+
+<!-- 일정 -->
+<div id="scheduleList" style="display:none;">
+
+
+<span style="color:#007dcd; ">2018.12.10</span><br>
+<a href="/service/schedule/view.asp?page=1&amp;idx=5314" class="noticeLink">[자격취득과정] 2018년 12월 10일 개강반 모집 안내입니다.</a><br>
+
+
+
+<span style="color:#007dcd; ">2018.12.10</span><br>
+<a href="/service/schedule/view.asp?page=1&amp;idx=5313" class="noticeLink">[1급 자격취득과정] 2018년 12월 10일 개강반 모집 안내입니다</a><br>
+
+
+
+<span style="color:#007dcd; ">2018.10.04</span><br>
+<a href="/service/schedule/view.asp?page=1&amp;idx=5307" class="noticeLink">[1급 자격취득과정] 2018년 10월 1일 개강반 모집 안내입니다.</a><br>
+
+
+</div>										
+
+
+
+
+                        </td>                        
+                      </tr>
+                    </table>
+                 <!--/공지/일정안내-->
+                
+                
+                </td>
+              </tr>
+              <tr>
+                <td height="10"></td>
+              </tr>
+              <tr>
+                <td><a href="/application/lecturelist.asp"><img src="/kecca/images/main/left_ban_01.gif" alt="수강신청하기"></a>
+               </td>
+              </tr>
+              <tr>
+                <td height="6"></td>
+              </tr>
+              <tr>
+                <td><a href="http://helpu.kr/aplan/" target="_blank"><img src="/kecca/images/main/left_ban_02.gif" alt="원격지원신청"></a>
+               </td>
+              </tr>
+              <tr>
+                <td height="6" ></td>
+              </tr>
+              <tr>
+                <td><a href="/service/pc_setting.asp"><img src="/kecca/images/main/left_ban_03.gif" alt="PC설정"></a></td>
+              </tr>
+              <tr>
+                <td height="6"></td>
+              </tr>
+              <tr>
+                <td><img src="/kecca/images/main/left_ban_04.gif" alt="결제계좌"></td>
+              </tr>
+              <tr>
+                <td height="6"></td>
+              </tr>
+              <tr>
+                <td><a href="/service/notice/view.asp?page=1&idx=4856"><img src="/kecca/images/m_banner.gif" alt="정식등록자격증"></a></td>
+              </tr>
+        	</table>
+             <!--/left-->
+             
+        </td>
+        <td width="20"></td>
+        <!--ctneter-->
+        <td width="730" align="left" valign="top"><table width="730" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td>
+                <!--수강신청/자격증발급신청/초보자가이드-->
+                <table width="730" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td><a href='javascript:menu("5");'><img src="images/main/main_bn01_Enrolment.jpg" alt="수강신청"></a></td>
+                    <td><a href='javascript:menu("5_3");'><img src="images/main/main_bn02_license_apply.jpg" alt="자격증발급신청"></a></td>
+                    <td><a href="/service/basic.asp"><img src="images/main/main_bn03_beginner.jpg" alt="초보자가이드"></a></td>
+                  </tr>
+                </table>    
+                <!--/수강신청/자격증발급신청/초보자가이드-->            </td>
+          </tr>
+          <tr>
+            <td height="22"></td>
+          </tr>
+
+		<tr>
+            <td>
+             <!--강의미리보기/단일등급과정-->            
+             
+            <table width="730" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+              	<td style="width:48"><img src="kecca/images/main/dan_left.gif"></td>
+                <td height="128" align="left" valign="top">
+
+               
+                <ul class="bxslider_menu_dan">
+                   <li>
+                        <ul class="main_mv01">
+                        	<li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=82&partNum=010000','lecture_1','900','600');"><img src="kecca/201807/main_ban_coding.gif" alt="코딩지도사"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+
+
+                        	<li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=68&partNum=010000','lecture_1','900','600');"><img src="kecca/201701/main_dan_01.gif" alt="병원코디네이너"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+
+                        	<li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=20&amp;partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/dan02.gif" alt="캘리그라피지도사"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+
+                        	<li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=57&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/dan05.gif" alt="안전지도사"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+
+                        	
+
+                           
+                        </ul>  
+
+                   </li>
+                   <li>
+                        <ul class="main_mv01">
+
+                        	<li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=58&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/dan06.gif" alt="학교안전지도사"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+
+                        	<li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=30&amp;partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/dan01.gif" alt="프레젠테이션전문가"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+
+                           
+                           <li><img src="kecca/images/main/dan00.gif" alt="준비중"></li>
+
+                           <li><img src="kecca/images/main/dan00.gif" alt="준비중"></li>
+                           
+                        </ul>  
+                   
+                   </li>
+                </ul>   
+                
+                </td>
+              </tr>
+            </table>                
+             <!--/강의미리보기/단일교육과정--> 
+            
+            
+            </td>
+          </tr>
+          <tr>
+          	<td style="height: 14px"></td>
+          </tr>
+
+
+          <tr>
+            <td>
+            <!--강의미리보기/1급과정--> 
+            <table width="730" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+              <td style="width:48; vertical-align: top"><img src="kecca/201701/main_1_bar.gif"></td>
+                <td height="128" align="left" valign="top">
+				<!-- 1급과정 첫번째 줄 슬라이드 2개 -->
+                <ul class="bxslider_menu_1g">
+                   <li>
+                        <ul class="main_mv01">
+                        	<!-- 신규추가 아동미술지도사 1급 -->
+							<li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=80&partNum=010000','lecture_1','900','600');"><img src="kecca/201709/1g-01.gif" alt="아동미술지도사"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+
+                        	<li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=79&partNum=010000','lecture_1','900','600');"><img src="kecca/201705/1g-06.gif" alt="노인심리상담사"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=62&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/1g-05.gif" alt="스피치지도사"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li style="margin-right:0"><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=61&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/1g-06.gif" alt="자기주도학습코치상담사"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           
+                           
+                        </ul>  
+                   </li>
+				 	<!-- 1급 첫번째 줄 두번째 슬라이드 -->
+                   <li>
+                        <ul class="main_mv01">
+                        <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=60&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/1g-07.gif" alt="분노조절상담지도사"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                        <li ><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=59&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/1g-08.gif" alt="부모교육지도사"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=74&partNum=010000','lecture_1','900','600');"><img src="kecca/201701/main_1_01.gif" alt="가족심리상담사"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li style="margin-right:0"><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=75&partNum=010000','lecture_1','900','600');"><img src="kecca/201701/main_1_02.gif" alt="아동폭력예방상담사"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           
+                           
+                        </ul>  
+                   </li>
+                </ul>   
+                <span style="float:right; margin-top:5px">
+                  <img src="kecca/images/main/btn_lesn_prev_off.gif" class="btnSlideMove" data-over="btn_lesn_prev_off.gif" data-out="btn_lesn_prev_off.gif" id="PrevImage_menu_1g">
+                  <img src="kecca/images/main/btn_lesn_next_off.gif" class="btnSlideMove" data-over="btn_lesn_next_off.gif" data-out="btn_lesn_next_off.gif" id="NextImage_menu_1g">
+                  </span>
+                <p style="clear: both"></p>
+
+				<!-- 1급과정 두번째 줄 -->
+				<ul class="bxslider_menu_1g2">
+                   <li>
+                        <ul class="main_mv01">
+                        <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=73&partNum=010000','lecture_1','900','600');"><img src="kecca/201701/main_1_03.gif" alt="독서지도사"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                        <li ><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=67&partNum=010000','lecture_1','900','600');"><img src="kecca/201701/main_1_04.gif" alt="음악심리상담사"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=31&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/1g-01.gif" alt="심리상담사"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li style="margin-right:0"><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=29&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/1g-02.gif" alt="아동심리상담사"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           
+                           
+                        </ul>  
+                   </li>
+					<!-- 1급과정 두번째 줄 두번째 슬라이드 -->
+                   <li>
+                        <ul class="main_mv01">
+                        	<li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=27&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/1g-03.gif" alt="방과후지도사"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                        	<li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=26&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/1g-04.gif" alt="미술심리상담사"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=77&partNum=010000','lecture_1','900','600');"><img src="kecca/201701/main_1_05.gif" alt="심리상담사"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li style="margin-right:0"><img src="kecca/201701/main_1_00.gif"></li>
+                        </ul>  
+                   
+                   </li>
+                </ul> 
+				<span style="float:right; margin-top:5px">
+                  <img src="kecca/images/main/btn_lesn_prev_off.gif" class="btnSlideMove" data-over="btn_lesn_prev_off.gif" data-out="btn_lesn_prev_off.gif" id="PrevImage_menu_1g2">
+                  <img src="kecca/images/main/btn_lesn_next_off.gif" class="btnSlideMove" data-over="btn_lesn_next_off.gif" data-out="btn_lesn_next_off.gif" id="NextImage_menu_1g2">
+                  </span>
+                <p style="clear: both"></p>
+
+                </td>
+              </tr>
+            </table>           
+             <!--강의미리보기/1급과정--> 
+          	</td>
+          </tr>
+          <tr>
+            <td style="height: 5px"></td>
+          </tr>
+          <tr>
+            <td>
+             <!--강의미리보기/2급과정-->            
+             
+            <table width="730" border="0" cellspacing="0" cellpadding="0">
+              <td style="width:48"><img src="kecca/images/main/2g-left.gif"></td>
+                <td height="128" align="left" valign="top">
+                <!-- 2급과정 1째줄 슬라이드 3개 -->
+                <ul class="bxslider_menu_sh">
+                   <li>
+                        <ul class="main_mv01">
+                        <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=79&partNum=010000','lecture_1','900','600');"><img src="kecca/201705/2g-06.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=21&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/2g-01.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=19&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/2g-02.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li style="margin-right:0"><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=18&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/2g-03.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           
+                        </ul>  
+                   
+                   </li>
+                   <li>
+                        <ul class="main_mv01">
+                        <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=17&partNum=010000','lecture_1','1000','700');"><img src="kecca/images/main/2g-04.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=12&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/2g-09.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=11&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/2g-10.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li style="margin-right:0"><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=10&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/2g-11.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           
+                        </ul>  
+                    </li>
+                  <!--  <li>
+                        <ul class="main_mv01">
+                          <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=12&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/2g-17.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                          <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=11&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/2g-18.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                          <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=10&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/2g-19.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                          <li style="margin-right:0"><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=9&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/2g-20.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                       </ul>  
+                   </li> -->
+
+                </ul>   
+                <span style="float:right; margin-top:5px">
+                  <img src="kecca/images/main/btn_lesn_prev_off.gif" class="btnSlideMove" data-over="btn_lesn_prev_off.gif" data-out="btn_lesn_prev_off.gif" id="PrevImage_menu_sh">
+                  <img src="kecca/images/main/btn_lesn_next_off.gif" class="btnSlideMove" data-over="btn_lesn_next_off.gif" data-out="btn_lesn_next_off.gif" id="NextImage_menu_sh">
+                  </span>
+                <p style="clear: both"></p>
+                <!--/강의미리보기/유아교육--> 
+
+
+
+
+                <!-- 2급과정 1째줄 슬라이드 3개 -->
+                <ul class="bxslider_menu_ya">
+                   <li>
+                        <ul class="main_mv01">
+                        <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=26&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/2g-12.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=16&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/2g-05.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=15&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/2g-06.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li style="margin-right:0"><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=62&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/2g-07.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           
+                        </ul>  
+                   
+                   </li>
+                   <li>
+                        <ul class="main_mv01">
+                        <li><a href="javascript:lecture_open('/Out_Contents/lectureViewFrameTest.asp?lec_idx=13&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/2g-08.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=8&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/2g-13.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=7&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/2g-14.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li style="margin-right:0"><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=5&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/2g-15.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           
+                        </ul>  
+                    </li>
+                   <li>
+                         <ul class="main_mv01">
+                         <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=29&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/2g-16.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=27&partNum=010000','lecture_1','900','600');"><img src="kecca/images/main/2g-21.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=4&partNum=010000','lecture_1','1000','700');"><img src="kecca/images/main/2g-22.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                           <li style="margin-right:0"><a href="javascript:lecture_open('/Out_Contents//lectureViewFrameTest.asp?lec_idx=77&partNum=010000','lecture_1','1000','700');"><img src="kecca/201701/main_2_01.gif"><img src="kecca/images/main/main_btn_play_off.png" class="btnPreview"></a></li>
+                        </ul>  
+                    </li>
+
+                </ul>   
+                
+
+
+
+                </td>
+              </tr>
+            </table>                
+            <span style="float:right; margin-top:5px">
+	          <img src="kecca/images/main/btn_lesn_prev_off.gif" class="btnSlideMove" data-over="btn_lesn_prev_off.gif" data-out="btn_lesn_prev_off.gif" id="PrevImage_menu_ya">
+	          <img src="kecca/images/main/btn_lesn_next_off.gif" class="btnSlideMove" data-over="btn_lesn_next_off.gif" data-out="btn_lesn_next_off.gif" id="NextImage_menu_ya">
+	          </span>
+             
+            
+            
+            </td>
+          </tr>
+          <tr>
+            <td height="5"></td>
+          </tr>
+          <tr>
+            <td><img src="kecca/201701/main_banner.gif" usemap="#Map" border="0"></td>
+          </tr>
+          <tr>
+            <td>
+            
+                <!--자격증안내-->
+                <table width="730" border="0" cellspacing="0" cellpadding="0" bgcolor="#f6f6f6" style="display:none;">
+                  <tr>
+                    <td height="46"><img src="images/main/main_tit_license.gif" alt="자격증안내"></td>
+                  </tr>
+                  <tr>
+                    <td height="22"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+                    	<!--자격증리스트-->
+						<div class="btn_license btn_license2 p13" style="margin-left: 3px;"><a href="/sub_page02/license_71.asp?pageNum=3&subNum=8"><p>스피치지도사1급</p>
+                        <span style="background-color:#034d9d;">go</span></a></div>
+                        
+						<div class="btn_license btn_license2 p13"><a href="/sub_page02/license_73.asp?pageNum=3&subNum=8"><p style="letter-spacing:-1px">자기주도학습코치상담사1급</p>
+                        <span style="background-color:#034d9d;">go</span></a></div>
+                        
+						<div class="btn_license btn_license2 p13"><a href="/sub_page02/license_72.asp?pageNum=3&subNum=8"><p style="letter-spacing:-1px">분노조절상담지도사1급</p>
+                        <span style="background-color:#034d9d;">go</span></a></div>
+
+                        <div class="btn_license btn_license2 p13"><a href="/sub_page02/license_70.asp?pageNum=3&subNum=8"><p style="letter-spacing:-1px">부모교육지도사1급</p>
+                        <span style="background-color:#034d9d;">go</span></a></div>
+
+						<p style="height:10px">&nbsp;</p><br/><br/>
+
+						<div class="btn_license btn_license2 p13" style="margin-left: 3px"><a href="/sub_page02/license_13.asp?pageNum=3&subNum=8"><p>심리상담사1급</p>
+                        <span style="background-color:#034d9d;">go</span></a></div>
+                        
+						<div class="btn_license btn_license2 p13"><a href="/sub_page02/license_14.asp?pageNum=3&subNum=8"><p>아동심리상담사1급</p>
+                        <span style="background-color:#034d9d;">go</span></a></div>
+                        
+						<div class="btn_license btn_license2 p13"><a href="/sub_page02/license_15.asp?pageNum=3&subNum=8"><p>방과후지도사1급</p>
+                        <span style="background-color:#034d9d;">go</span></a></div>
+
+                        <div class="btn_license btn_license2 p13"><a href="/sub_page02/license_16.asp?pageNum=3&subNum=8"><p style="letter-spacing:-1px">미술심리상담지도사1급</p>
+                        <span style="background-color:#034d9d;">go</span></a></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="25"></td>
+                  </tr>
+                  <tr>
+                    <td height="7"><img src="/kecca/images/main/hori_bar.gif"></td>
+                  </tr>
+                  <tr>
+                    <td height="25"></td>
+                  </tr>
+                  <tr>
+                    <td valign="top" align="center">
+                        <!--자격증리스트-->
+						<div class="btn_license"><a href="/sub_page02/license_12.asp?pageNum=3&subNum=8"><p>분노조절상담지도사</p>
+                        <span>go</span></a></div>
+
+                        <div class="btn_license"><a href="/sub_page02/license_05.asp?pageNum=3&subNum=4"><p>인성지도사</p>
+                        <span>go</span></a></div>
+
+                        <div class="btn_license"><a href="/sub_page03/license_01.asp?pageNum=4&subNum=1"><p>방과후지도사</p>
+                        <span>go</span></a></div> <br><br>
+
+                        
+						<div class="btn_license"><a href="/sub_page02/license_11.asp?pageNum=3&subNum=8"><p>캘리그라피지도사</p>
+                        <span>go</span></a></div>
+
+                        <div class="btn_license"><a href="/sub_page02/license_09.asp?pageNum=3&subNum=8"><p>가족심리상담사</p>
+                        <span>go</span></a></div>
+
+                        <div class="btn_license"><a href="/sub_page03/license_02.asp?pageNum=4&subNum=2"><p>독서지도사</p>
+                        <span>go</span></a></div> <br><br>
+
+                        
+						<div class="btn_license"><a href="/sub_page02/license_01.asp?pageNum=3&subNum=1"><p>심리상담사</p>
+                        <span>go</span></a></div>
+
+                        <div class="btn_license"><a href="/sub_page02/license_10.asp?pageNum=3&subNum=8"><p>자기주도학습코치상담사</p>
+                        <span>go</span></a></div>
+
+                        <div class="btn_license"><a href="/sub_page03/license_03.asp?pageNum=4&subNum=3"><p>아동심리상담사</p>
+                        <span>go</span></a></div><br><br>
+
+
+                        
+                        <div class="btn_license"><a href="/sub_page02/license_02.asp?pageNum=3&subNum=2"><p>미술심리상담지도사</p>
+                        <span>go</span></a></div>
+                        <div class="btn_license"><a href="/sub_page02/license_07.asp?pageNum=3&subNum=7"><p>스피치지도사</p>
+                        <span>go</span></a></div>
+                        <div class="btn_license"><a href="/sub_page03/license_05.asp?pageNum=4&subNum=4"><p>동화구연지도사</p>
+                        <span>go</span></a></div><br><br>
+
+
+						<div class="btn_license"><a href="/sub_page02/license_04.asp?pageNum=3&subNum=3"><p>부모교육지도사</p>
+                        <span>go</span></a></div>
+                        <div class="btn_license"><a href="/sub_page02/license_08.asp?pageNum=3&subNum=8"><p>이미지메이킹</p>
+                        <span>go</span></a></div>
+                        <div class="btn_license"><a href="/sub_page03/license_07.asp?pageNum=4&subNum=5"><p>아동미술지도사</p>
+                        <span>go</span></a></div> <br><br>
+
+                        <div class="btn_license"><a href="/sub_page03/license_17.asp?pageNum=4&subNum=6"><p>아동폭력예방상담사</p>
+                        <span>go</span></a></div>
+						<div class="btn_license"><a href="/sub_page03/license_08.asp?pageNum=4&subNum=8"><p>손유희지도사</p>
+                        <span>go</span></a></div>
+						<div class="btn_license"><a href="/sub_page03/license_15.asp?pageNum=4&subNum=15"><p>아동요리지도사</p>
+                        <span>go</span></a></div> <br><br>
+
+                        <div class="btn_license"><a href="/sub_page03/license_10.asp?pageNum=4&subNum=10"><p>클레이아트지도사</p>
+                        <span>go</span></a></div>
+                        <div class="btn_license"><a href="/sub_page02/license_74.asp?pageNum=3&subNum=8"><p>안전지도사</p>
+                        <span>go</span></a></div>
+                        <div class="btn_license"><a href="/sub_page02/license_75.asp?pageNum=3&subNum=8"><p>학교안전지도사</p>
+                        <span>go</span></a></div>
+
+                        
+                        <!--/자격증리스트-->
+                    
+                    	<p>&nbsp;</p>
+                    	<br><br>
+                    
+                    </td>
+                  </tr>
+                </table>
+                <!--/자격증안내--> 
+            
+            </td>
+          </tr>
+          
+        </table>
+        <!--/ctneter--></td>
+      </tr>
+    </table>
+
+    </div>
+</div>
+<!--/contents-->
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<!-- 메인에서는 아래 사용안함 -->
+
+		
+<p style="clear:both; margin-top: 15px">&nbsp;</p>		
+<!-- N2S 스크립트 광고  수집용 Start -->
+<!-- <script language="javascript" src="//web.n2s.co.kr/js/_n2s_sp_log_ekcls_srv.js"></script> -->
+<!-- N2S 스크립트 광고  수집용 End -->
+
+<!--copyright-->
+<div style="background-image: url(/kecca/201705/bottom_bg.gif); height: 76px; text-align: center; margin-top:65px">
+<img src="/kecca/201705/bottom_comp.gif">
+</div>
+<div id="copyright_wrap" style="text-align:center">
+  <div class="copyright_wrap01_01">
+    
+        <div style="padding-top:25px; color:#FFF; font-size:11px;">
+            <ul>
+                <li style="width:220px"><img src="/images/main/logo_btm.gif" alt="logo"></li>
+                <li style="width:410px;text-align:left;letter-spacing: -1px">   
+                    <span>
+                    <font style="font-size:16px;font-weight:bold;">&lt;교육과정운영기관 정보&gt;</font><br>
+                    경기도 김포시 김포한강9로 90, 504호(구래동, 성현프라자) | 원장 : 정민규<br>
+                    상호 : (주)한국교육콘텐츠진흥원 | 팩스 : 02-6008-3519 | E-mail : kecca@kecca.co.kr <br>
+                    통신판매업신고번호 : 제2018-경기김포-1186호 | 사업자등록번호 : 646-87-00277<br>
+                    원격신고번호 : 원격시설 제37호  <br>
+                    opyright(C) 2015 한국교육콘텐츠진흥원.All rights reserved. 
+                     <a href="#" target="_self" onclick="window.open('/member/text02.asp', 'pop01', 'scrollbars=yes, width=600, height=600');"><font color="yellow"><b>개인정보처리방침</b></font></a><br>
+                    </span>  
+                </li>
+                <li style="width:370px;text-align:left;">   
+                    <span>
+                    <font size="3px">&lt;해당 자격관리기관정보&gt;</font><br>
+                    서울특별시 성북구삼선동4가 104-10 선경빌딩 3층전관 | 대표자 : 홍형훈<br>
+                    상호 : (주)한국사이버진흥원 | 사업자번호 : 201-86-18145 <br>
+                    통신판매업신고번호 : 제2010-서울성북-00466호 <br> 원격신고번호 : 원격시설 제2012-8호<br>
+                    Copyright(C) 2013 한국사이버진흥원.All rights reserved.<br>
+                    </span>  
+                </li>
+                
+            </ul> 
+         </div>
+             
+    </div>
+</div>
+<!--/copyright-->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60508682-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<link href="/kecca/scripts/jquery.bxslider.css" rel="stylesheet" />
+<script src="/kecca/scripts/jquery.bxslider.min.js"></script>
+<map name="Map">
+
+<area shape="rect" coords="2,141,110,200" href="/sub_page02/license_11.asp?pageNum=3&subNum=8" alt="11">
+<area shape="rect" coords="119,141,227,200" href="/sub_page02/license_09.asp?pageNum=3&subNum=8" alt="12">
+<area shape="rect" coords="245,141,353,200" href="/sub_page02/license_04.asp?pageNum=3&subNum=3" alt="13">
+<area shape="rect" coords="368,141,476,200" href="/sub_page02/license_17.asp?pageNum=3&subNum=8" alt="14">
+<area shape="rect" coords="492,141,600,200" href="/sub_page02/license_20.asp?pageNum=3&subNum=8" alt="15">
+<area shape="rect" coords="616,141,724,200" href="/sub_page02/license_02.asp?pageNum=3&subNum=2" alt="16">
+
+<area shape="rect" coords="3,200,111,259" href="/sub_page03/license_15.asp?pageNum=4&subNum=15" alt="21">
+<area shape="rect" coords="119,201,227,260" href="/sub_page02/license_08.asp?pageNum=3&subNum=8" alt="22">
+<area shape="rect" coords="244,201,352,260" href="/sub_page03/license_05.asp?pageNum=4&subNum=4" alt="23">
+<area shape="rect" coords="369,201,477,260" href="/sub_page03/license_17.asp?pageNum=4&subNum=6" alt="24">
+<area shape="rect" coords="492,201,600,260" href="/sub_page02/license_10.asp?pageNum=3&subNum=8" alt="25">
+<area shape="rect" coords="617,201,725,260" href="/sub_page03/license_08.asp?pageNum=4&subNum=8" alt="26">
+
+<area shape="rect" coords="7,259,115,318" href="/sub_page03/license_01.asp?pageNum=4&subNum=1" alt="31">
+<area shape="rect" coords="123,259,231,318" href="/sub_page03/license_02.asp?pageNum=4&subNum=2" alt="32">
+<area shape="rect" coords="247,259,355,318" href="/sub_page03/license_03.asp?pageNum=4&subNum=3" alt="33">
+<area shape="rect" coords="372,259,480,318" href="/sub_page02/license_01.asp?pageNum=3&subNum=1" alt="34">
+<area shape="rect" coords="493,259,601,318" href="/sub_page02/license_07.asp?pageNum=3&subNum=7" alt="35">
+<area shape="rect" coords="617,258,725,317" href="/sub_page02/license_12.asp?pageNum=3&subNum=8" alt="36">
+
+<area shape="rect" coords="5,317,113,376" href="/sub_page03/license_07.asp?pageNum=4&subNum=5" alt="41">
+<area shape="rect" coords="119,317,227,376" href="/sub_page02/license_75.asp?pageNum=3&subNum=8" alt="42">
+<area shape="rect" coords="245,317,353,376" href="/sub_page02/license_74.asp?pageNum=3&subNum=8" alt="43">
+<area shape="rect" coords="370,317,478,376" href="/sub_page02/license_05.asp?pageNum=3&subNum=4" alt="44">
+<area shape="rect" coords="493,317,601,376" href="/sub_page03/license_10.asp?pageNum=4&subNum=10" alt="45">
+<area shape="rect" coords="618,317,726,376" href="/sub_page02/license_37.asp?pageNum=4&subNum=15" alt="46">
+
+<area shape="rect" coords="5,375,113,434" href="/sub_page02/license_35.asp?pageNum=3&subNum=8" alt="51">
+<area shape="rect" coords="120,375,228,434" href="/sub_page02/license_30.asp?pageNum=3&subNum=8" alt="52">
+
+
+</map>
+<script>
+    $(window).load(function(){
+        //var tempWidth = $(window).width();
+        //if (tempWidth > 1000)   {  $("#slidebox").css( "width", tempWidth + "px");  }
+    });  
+
+    $(window).resize(function() {
+        //location.reload();
+    });
+
+    $(function() {
+        var slider = $('.bxslider').bxSlider({
+            pager : false,
+            pagerCustom: '#bx-pager'
+        });
+
+        setInterval(function(){ PageNext(); }, 4000);
+        $("#Goto0").prop('src', '/images/main/main_v_btn_on.png');
+
+        function PageImage(index)
+        {
+            $("#Goto0").prop('src', '/images/main/main_v_btn_off.png');
+            $("#Goto1").prop('src', '/images/main/main_v_btn_off.png');
+            $("#Goto2").prop('src', '/images/main/main_v_btn_off.png');
+            $("#Goto3").prop('src', '/images/main/main_v_btn_off.png');
+            $("#Goto4").prop('src', '/images/main/main_v_btn_off.png');
+            $("#Goto5").prop('src', '/images/main/main_v_btn_off.png');
+            $("#Goto" + index).prop('src', '/images/main/main_v_btn_on.png');
+        }
+
+        function PageNext()
+        {
+            slider.goToNextSlide();
+            PageImage(slider.getCurrentSlide());
+        }
+
+        $("#PrevImage").click(function(){
+            slider.goToPrevSlide();
+            PageImage(slider.getCurrentSlide());
+        });
+
+        $("#NextImage").click(function(){
+            PageNext();
+        });
+
+        $("#Goto0").click(function(){
+            PageImage(0);
+            slider.goToSlide(0);
+        });
+
+        $("#Goto1").click(function(){
+            PageImage(1);
+            slider.goToSlide(1);
+        });
+
+        $("#Goto2").click(function(){
+            PageImage(2);
+            slider.goToSlide(2);
+        });
+
+        $("#Goto3").click(function(){
+            PageImage(3);
+            slider.goToSlide(3);
+        });
+
+        $("#Goto4").click(function(){
+            PageImage(4);
+            slider.goToSlide(4);
+        });
+
+        $("#Goto5").click(function(){
+            PageImage(5);
+            slider.goToSlide(5);
+        });
+
+
+        // 1급 첫번째 줄
+        var slider_menu_1g = $('.bxslider_menu_1g').bxSlider({
+            pager : false,
+            mode: 'fade',
+            speed: 400
+        });
+        setInterval(function(){ PageNext_menu_1g(); }, 7000);
+        function PageNext_menu_1g()
+        {
+            slider_menu_1g.goToNextSlide();
+        }
+        $("#PrevImage_menu_1g").click(function(){
+            slider_menu_1g.goToPrevSlide();
+        });
+        $("#NextImage_menu_1g").click(function(){
+            PageNext_menu_1g();
+        });
+
+        // 1급 두번째 줄
+        var slider_menu_1g2 = $('.bxslider_menu_1g2').bxSlider({
+            pager : false,
+            mode: 'fade',
+            speed: 400
+        });
+        setInterval(function(){ PageNext_menu_1g2(); }, 7000);
+        function PageNext_menu_1g2()
+        {
+            slider_menu_1g2.goToNextSlide();
+        }
+        $("#PrevImage_menu_1g2").click(function(){
+            slider_menu_1g2.goToPrevSlide();
+        });
+        $("#NextImage_menu_1g2").click(function(){
+            PageNext_menu_1g2();
+        });
+
+
+
+        // 메뉴용 sh
+        var slider_menu_sh = $('.bxslider_menu_sh').bxSlider({
+            pager : false,
+            mode: 'fade',
+            speed: 400
+        });
+        setInterval(function(){ PageNext_menu_sh(); }, 7000);
+        function PageNext_menu_sh()
+        {
+            slider_menu_sh.goToNextSlide();
+        }
+        $("#PrevImage_menu_sh").click(function(){
+            slider_menu_sh.goToPrevSlide();
+        });
+        $("#NextImage_menu_sh").click(function(){
+            PageNext_menu_sh();
+        });
+        // 메뉴용 ya
+        var slider_menu_ya = $('.bxslider_menu_ya').bxSlider({
+            pager : false,
+            mode: 'fade',
+            speed: 400
+        });
+        setInterval(function(){ PageNext_menu_ya(); }, 7000);
+        function PageNext_menu_ya()
+        {
+            slider_menu_ya.goToNextSlide();
+        }
+        $("#PrevImage_menu_ya").click(function(){
+            slider_menu_ya.goToPrevSlide();
+        });
+        $("#NextImage_menu_ya").click(function(){
+            PageNext_menu_ya();
+        });
+
+	      // 공지탭
+		  $("#tabTitleImgNotice").hover(function(){
+		  		$(this).attr('src' , '/images/main/' + $(this).attr('data-over'));
+		  		$("#tabTitleImgSchedule").attr('src' , '/images/main/' + $("#tabTitleImgSchedule").attr('data-out'));
+		  		$("#scheduleList").hide();
+		  		$("#noticeList").show();
+		  });
+		  // 일정관리탭
+		  $("#tabTitleImgSchedule").hover(function(){
+		  		$(this).attr('src' , '/images/main/' + $(this).attr('data-over'));
+		  		$("#tabTitleImgNotice").attr('src' , '/images/main/' + $("#tabTitleImgNotice").attr('data-out'));
+		  		$("#scheduleList").show();
+		  		$("#noticeList").hide();
+		  });
+
+		  // 미리보기 이동버튼
+		  $(".btnSlideMove").hover(
+		    function(){
+        		$(this).attr('src' , '/kecca/images/main/' + $(this).attr('data-over'));
+        	},
+        	function(){
+        		$(this).attr('src' , '/kecca/images/main/' + $(this).attr('data-out'));
+        	}
+		  );
+
+		  // 미리보기 동영상 버튼
+		  $(".btnPreview").hover(
+		    function(){
+        		$(this).attr('src' , '/kecca/images/main/main_btn_play_on.png');
+        	},
+        	function(){
+        		$(this).attr('src' , 'kecca/images/main/main_btn_play_off.png');
+        	}
+		  );
+
+
+
+        // 자격증안내
+        $(".btn_license").hover(
+        	function(){
+        		$("span", this).css("background-color", "#ff841c");
+        		$("a", this).css("color", "#ff841c;");
+        		$(this).css("border", "1px solid #ff841c");
+
+        	},
+        	function(){
+        		$("span", this).css("background-color", "#22ad9e");
+        		$("a", this).css("color", "#555;");
+        		$(this).css("border", "1px solid #cfd2d9");
+        	}
+
+        );
+
+        // 자격증안내
+        $(".btn_license2").hover(
+        	function(){
+        		$("span", this).css("background-color", "#ff841c");
+        		$("a", this).css("color", "#ff841c;");
+        		$(this).css("border", "1px solid #ff841c");
+
+        	},
+        	function(){
+        		$("span", this).css("background-color", "#034d9d");
+        		$("a", this).css("color", "#555;");
+        		$(this).css("border", "1px solid #cfd2d9");
+        	}
+
+        );
+
+
+        
+
+
+    });
+
+</script>
+</body>
+</html>
